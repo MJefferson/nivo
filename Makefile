@@ -129,6 +129,8 @@ packages-tslint: ##@1 packages run tslint on all packages
         ./packages/annotations/index.d.ts \
         ./packages/axes/index.d.ts \
         ./packages/bar/index.d.ts \
+        ./packages/bullet/**/*.ts \
+        ./packages/bullet/**/*.tsx \
         ./packages/calendar/index.d.ts \
         ./packages/chord/index.d.ts \
         ./packages/colors/index.d.ts \
