@@ -22,6 +22,8 @@ import {
     geoTransverseMercator,
     geoNaturalEarth1,
     geoGraticule,
+    albers,
+    albersUsa
 } from 'd3-geo'
 import { guessQuantizeColorScale, useTheme } from '@nivo/core'
 import { useInheritedColor } from '@nivo/colors'
